@@ -22,6 +22,12 @@
 * [CVE-2017-5638 : Content-Type: Malicious - New Apache Struts2 0-day Under Attack](http://blog.talosintelligence.com/2017/03/apache-0-day-exploited.html)
 * [DRUPAL 7.X SERVICES MODULE UNSERIALIZE() TO RCE](https://www.ambionics.io/blog/drupal-services-module-rce)
 
+### Command injection
+* [How I Hacked my Smart TV from My Bed via a Command Injection](https://www.netsparker.com/blog/web-security/hacking-smart-tv-command-injection/)
+* [routerpwn](http://routerpwn.com/)
+
+### SMTP injection
+* [Pwning PHP mail() function For Fun And RCE ](https://exploitbox.io/paper/Pwning-PHP-Mail-Function-For-Fun-And-RCE.html) - not SMTP Injection per se, but related
 
 ## A2 Broken Authentication and Session Management
 
@@ -35,10 +41,12 @@
 * [JSFuck](http://www.jsfuck.com/)
 * [XSSed](http://www.xssed.com) - neaktualizovane
 * [XSS without HTML: Client-Side Template Injection with AngularJS](http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html)
+* [IE XSS  filter evasion](http://xss.cx/examples/ie/internet-exploror-ie9-xss-filter-rules-example-regexp-mshtmldll.txt)
 
 ## A4 Insecure Direct Object References
 
 * [Exploiting PHP File Inclusion – Overview](https://websec.wordpress.com/2010/02/22/exploiting-php-file-inclusion-overview/)
+* [Airbnb – Web to App Phone Notification IDOR to view Everyone’s Airbnb Messages](http://buer.haus/2017/03/31/airbnb-web-to-app-phone-notification-idor-to-view-everyones-airbnb-messages/)
 
 ## A5 Security Misconfiguration
 * [Shodan product:MySQL country:sk](https://www.shodan.io/search?query=product%3AMySQL+country%3Ask)
@@ -60,4 +68,11 @@
 
 ## A10 Unvalidated Redirects and Forwards
 
+
+## Other
+
+* [OWASP Top10 2017 RC1](https://github.com/OWASP/Top10/raw/master/2017/OWASP%20Top%2010%20-%202017%20RC1-English.pdf)
+* [Musings on the OWASP Top 10 2017 RC1](https://nvisium.com/blog/2017/04/18/musings-on-the-owasp-top-10-2017-rc1/)
+* [Abusing OWASP with 'Insufficient Attack Protection'](http://www.skeletonscribe.net/2017/04/abusing-owasp.html)
+* [Why OWASP Top 10 is no longer relevant](https://sakurity.com/blog/2017/04/24/owasp.html)
 
