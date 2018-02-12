@@ -14,7 +14,68 @@
 * [ORM2Pwn: Exploiting injections in Hibernate ORM](https://www.slideshare.net/0ang3el/orm2pwn-exploiting-injections-in-hibernate-orm)
 * [OWASP Hibernate](https://www.owasp.org/index.php/Hibernate)
 
-### Serialization issues and Object Injection
+### NoSQL
+
+* [NoSQLMap](https://github.com/codingo/NoSQLMap)
+
+
+### Command injection
+* [How I Hacked my Smart TV from My Bed via a Command Injection](https://www.netsparker.com/blog/web-security/hacking-smart-tv-command-injection/)
+* [routerpwn](http://routerpwn.com/)
+
+### SMTP injection
+* [Pwning PHP mail() function For Fun And RCE ](https://exploitbox.io/paper/Pwning-PHP-Mail-Function-For-Fun-And-RCE.html) - not SMTP Injection per se, but related
+
+## A2 Broken Authentication
+
+* [Exploiting Misconfigured Apache server-status Instances with server-status_PWN](http://blog.mazinahmed.net/2017/01/exploiting-misconfigured-apache-server-status-instances.html)
+* [have i been pwned?](https://haveibeenpwned.com/)
+* [Cr3dOv3r - Your best friend in credential reuse attacks](https://github.com/D4Vinci/Cr3dOv3r)
+* [Bypassing SAML 2.0 SSO with XML Signature Attacks](http://research.aurainfosec.io/bypassing-saml20-SSO/)
+* [Passwords Evolved: Authentication Guidance for the Modern Era](https://www.troyhunt.com/passwords-evolved-authentication-guidance-for-the-modern-era/)
+* [Yahoo Bug Bounty: Exploiting OAuth Misconfiguration To Takeover Flickr Accounts](https://mishresec.wordpress.com/2017/10/12/yahoo-bug-bounty-exploiting-oauth-misconfiguration-to-takeover-flickr-accounts/)
+
+## A3 Sensitive Data Exposure
+
+* [How to Safely Store Your Users' Passwords in 2016](https://paragonie.com/blog/2016/02/how-safely-store-password-in-2016)
+* [High-Tech Bridge - SSL/TLS Server Test](https://www.htbridge.com/ssl/)
+* [Qualys SSL Labs - SSL Server Test](https://www.ssllabs.com/ssltest/)
+
+## A4 XML External Entities (XXE)
+
+* [XXE - Things Are Getting Out of Band](https://blog.zsec.uk/out-of-band-xxe-2/)
+* [Oracle Peoplesoft Remote Code Execution: Blind Xxe To System Shell  CVE-2013-3800 CVE-2013-3821 CVE-2017-3548](https://www.ambionics.io/blog/oracle-peoplesoft-xxe-to-rce)
+* [Hunting in the Dark - Blind XXE](https://blog.zsec.uk/blind-xxe-learning/)
+* [Shopware 5.3.3: PHP Object Instantiation to Blind XXE](https://blog.ripstech.com/2017/shopware-php-object-instantiation-to-blind-xxe/)
+* [XML External Entity (XXE) limitations](https://www.acunetix.com/blog/articles/xml-external-entity-xxe-limitations/)
+
+## A5 Broken Access Control
+
+* [Airbnb – Web to App Phone Notification IDOR to view Everyone’s Airbnb Messages](http://buer.haus/2017/03/31/airbnb-web-to-app-phone-notification-idor-to-view-everyones-airbnb-messages/)
+* [Exploiting CORS Misconfigurations for Bitcoins and Bounties](http://blog.portswigger.net/2016/10/exploiting-cors-misconfigurations-for.html)
+* [wfuzz - Web application fuzzer](https://github.com/xmendez/wfuzz)
+
+## A6 Security Misconfiguration
+* [Shodan product:MySQL country:sk](https://www.shodan.io/search?query=product%3AMySQL+country%3Ask)
+* [The 2018 Guide to Building Secure PHP Software](https://paragonie.com/blog/2017/12/2018-guide-building-secure-php-software)
+
+
+## A7 Cross-Site Scripting (XSS)
+
+* [SOP bypass/ UXSS on IE – More Adventures in a Domainless World](https://www.brokenbrowser.com/uxss-ie-domainless-world/)
+* [Apple WebKit: UXSS via Frame::setDocument](https://bugs.chromium.org/p/project-zero/issues/detail?id=1057)
+* [Issue 1049  Apple WebKit: UXSS via FrameLoader::clear](https://bugs.chromium.org/p/project-zero/issues/detail?id=1049)
+* [JSFuck](http://www.jsfuck.com/)
+* [XSSed](http://www.xssed.com) - outdated
+* [XSS without HTML: Client-Side Template Injection with AngularJS](http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html)
+* [IE XSS  filter evasion](http://xss.cx/examples/ie/internet-exploror-ie9-xss-filter-rules-example-regexp-mshtmldll.txt)
+* [Chrome < 62 uxss exploit (CVE-2017-5124)](https://github.com/Bo0oM/CVE-2017-5124)
+* [Universal XSS via Evernote WebClipper](https://blog.xpnsec.com/evernote-webclipper-uxss/)
+* [From Markdown to RCE in Atom](https://statuscode.ch/2017/11/from-markdown-to-rce-in-atom/)
+* [DOM XSS – auth.uber.com](https://stamone-bug-bounty.blogspot.sk/2017/10/dom-xss-auth_14.html)
+
+## A8 Insecure Deserialization
+
 * [Serialization Must Die: Act 2: XStream (Jenkins CVE-2016-0792)](https://www.contrastsecurity.com/security-influencers/serialization-must-die-act-2-xstream)
 * [Exploiting CVE-2014-1691: Horde Framework PHP Object Injection Vulnerability](http://karmainsecurity.com/exploiting-cve-2014-1691-horde-framework-php-object-injection)
 * [CVE-2014-1691 : Horde Framework Unserialize PHP Code Execution : Metasploit module](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/horde_unserialize_exec.rb)
@@ -24,50 +85,9 @@
 * [PentesterLab: Serialization is currently one of the hot topic in web security. This badge covers the exploitation of serialization vulnerabilities in multiple languages](https://pentesterlab.com/badges/serialize)
 * [CVE-2017-5638 : Content-Type: Malicious - New Apache Struts2 0-day Under Attack](http://blog.talosintelligence.com/2017/03/apache-0-day-exploited.html)
 * [DRUPAL 7.X SERVICES MODULE UNSERIALIZE() TO RCE](https://www.ambionics.io/blog/drupal-services-module-rce)
-
-### Command injection
-* [How I Hacked my Smart TV from My Bed via a Command Injection](https://www.netsparker.com/blog/web-security/hacking-smart-tv-command-injection/)
-* [routerpwn](http://routerpwn.com/)
-
-### SMTP injection
-* [Pwning PHP mail() function For Fun And RCE ](https://exploitbox.io/paper/Pwning-PHP-Mail-Function-For-Fun-And-RCE.html) - not SMTP Injection per se, but related
-
-## A2 Broken Authentication and Session Management
-
-* [Exploiting Misconfigured Apache server-status Instances with server-status_PWN](http://blog.mazinahmed.net/2017/01/exploiting-misconfigured-apache-server-status-instances.html)
-
-## A3 Cross-Site Scripting (XSS)
-
-* [SOP bypass/ UXSS on IE – More Adventures in a Domainless World](https://www.brokenbrowser.com/uxss-ie-domainless-world/)
-* [Apple WebKit: UXSS via Frame::setDocument](https://bugs.chromium.org/p/project-zero/issues/detail?id=1057)
-* [Issue 1049  Apple WebKit: UXSS via FrameLoader::clear](https://bugs.chromium.org/p/project-zero/issues/detail?id=1049)
-* [JSFuck](http://www.jsfuck.com/)
-* [XSSed](http://www.xssed.com) - neaktualizovane
-* [XSS without HTML: Client-Side Template Injection with AngularJS](http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html)
-* [IE XSS  filter evasion](http://xss.cx/examples/ie/internet-exploror-ie9-xss-filter-rules-example-regexp-mshtmldll.txt)
-* [Chrome < 62 uxss exploit (CVE-2017-5124)](https://github.com/Bo0oM/CVE-2017-5124)
-* [Universal XSS via Evernote WebClipper](https://blog.xpnsec.com/evernote-webclipper-uxss/)
-* [From Markdown to RCE in Atom](https://statuscode.ch/2017/11/from-markdown-to-rce-in-atom/)
-* [DOM XSS – auth.uber.com](https://stamone-bug-bounty.blogspot.sk/2017/10/dom-xss-auth_14.html)
-
-## A4 Insecure Direct Object References
-
-* [Exploiting PHP File Inclusion – Overview](https://websec.wordpress.com/2010/02/22/exploiting-php-file-inclusion-overview/)
-* [Airbnb – Web to App Phone Notification IDOR to view Everyone’s Airbnb Messages](http://buer.haus/2017/03/31/airbnb-web-to-app-phone-notification-idor-to-view-everyones-airbnb-messages/)
-
-## A5 Security Misconfiguration
-* [Shodan product:MySQL country:sk](https://www.shodan.io/search?query=product%3AMySQL+country%3Ask)
-* [The 2018 Guide to Building Secure PHP Software](https://paragonie.com/blog/2017/12/2018-guide-building-secure-php-software)
-
-## A6 Sensitive Data Exposure
-
-* [How to Safely Store Your Users' Passwords in 2016](https://paragonie.com/blog/2016/02/how-safely-store-password-in-2016)
-
-## A7 Missing Function Level Access Control
-
-## A8 Cross-Site Request Forgery (CSRF)
-
-* [Stompy](http://lcamtuf.coredump.cx/) a fairly sophisticated token randomness evaluation tool.
+* [Oracle WebLogic - wls-wsat Component Deserialization Remote Code Execution (Metasploit)](https://www.exploit-db.com/exploits/43924/)
+* [Remote Code Execution in CouchDB CVE-2017-12635](https://justi.cz/security/2017/11/14/couchdb-rce-npm.html)
+* [Defencely Clarifies Python Object Injection Exploitation](https://defencely.com/blog/defencely-clarifies-python-object-injection-exploitation/)
 
 ## A9 Using Components with Known Vulnerabilities
 
@@ -75,7 +95,9 @@
 * [mustache-security](https://code.google.com/archive/p/mustache-security/)
 * [Introducing security alerts on GitHub](https://github.com/blog/2470-introducing-security-alerts-on-github)
 
-## A10 Unvalidated Redirects and Forwards
+## A10 Insufficient Logging and Monitoring
+
+* [Web Application Firewall (WAF) Evasion Techniques](https://medium.com/secjuice/waf-evasion-techniques-718026d693d8)
 
 
 ## Other
