@@ -3,7 +3,10 @@
 ## A1 Injection
 
 ### SQL Injection
+* [NetSPI SQL Injection Wiki!](https://sqlwiki.netspi.com/)
 * [Exploiting hard filtered SQL Injections](https://websec.wordpress.com/2010/03/19/exploiting-hard-filtered-sql-injections/)
+* [Exploiting hard filtered SQL Injections 2](https://websec.wordpress.com/2010/05/07/exploiting-hard-filtered-sql-injections-2-conditional-errors/)
+* [Exploiting hard filtered SQL Injections 3](https://websec.wordpress.com/2010/05/26/exploiting-hard-filtered-sql-injections-3/)
 * [Exploits of a Mom](https://xkcd.com/327/)
 
 ### HQL & Hibernte
@@ -42,6 +45,10 @@
 * [XSSed](http://www.xssed.com) - neaktualizovane
 * [XSS without HTML: Client-Side Template Injection with AngularJS](http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html)
 * [IE XSS  filter evasion](http://xss.cx/examples/ie/internet-exploror-ie9-xss-filter-rules-example-regexp-mshtmldll.txt)
+* [Chrome < 62 uxss exploit (CVE-2017-5124)](https://github.com/Bo0oM/CVE-2017-5124)
+* [Universal XSS via Evernote WebClipper](https://blog.xpnsec.com/evernote-webclipper-uxss/)
+* [From Markdown to RCE in Atom](https://statuscode.ch/2017/11/from-markdown-to-rce-in-atom/)
+* [DOM XSS – auth.uber.com](https://stamone-bug-bounty.blogspot.sk/2017/10/dom-xss-auth_14.html)
 
 ## A4 Insecure Direct Object References
 
@@ -50,6 +57,7 @@
 
 ## A5 Security Misconfiguration
 * [Shodan product:MySQL country:sk](https://www.shodan.io/search?query=product%3AMySQL+country%3Ask)
+* [The 2018 Guide to Building Secure PHP Software](https://paragonie.com/blog/2017/12/2018-guide-building-secure-php-software)
 
 ## A6 Sensitive Data Exposure
 
@@ -65,6 +73,7 @@
 
 * [WPScan](https://wpscan.org/) is a black box WordPress vulnerability scanner
 * [mustache-security](https://code.google.com/archive/p/mustache-security/)
+* [Introducing security alerts on GitHub](https://github.com/blog/2470-introducing-security-alerts-on-github)
 
 ## A10 Unvalidated Redirects and Forwards
 
