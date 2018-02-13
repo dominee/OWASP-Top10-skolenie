@@ -88,6 +88,7 @@
 * [Oracle WebLogic - wls-wsat Component Deserialization Remote Code Execution (Metasploit)](https://www.exploit-db.com/exploits/43924/)
 * [Remote Code Execution in CouchDB CVE-2017-12635](https://justi.cz/security/2017/11/14/couchdb-rce-npm.html)
 * [Defencely Clarifies Python Object Injection Exploitation](https://defencely.com/blog/defencely-clarifies-python-object-injection-exploitation/)
+* [ysoserial](https://github.com/frohoff/ysoserial) - A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization
 
 ## A9 Using Components with Known Vulnerabilities
 
