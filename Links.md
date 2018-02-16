@@ -48,12 +48,14 @@
 * [Hunting in the Dark - Blind XXE](https://blog.zsec.uk/blind-xxe-learning/)
 * [Shopware 5.3.3: PHP Object Instantiation to Blind XXE](https://blog.ripstech.com/2017/shopware-php-object-instantiation-to-blind-xxe/)
 * [XML External Entity (XXE) limitations](https://www.acunetix.com/blog/articles/xml-external-entity-xxe-limitations/)
+* [XSLT Server Side Injection Attacks](https://www.contextis.com/blog/xslt-server-side-injection-attacks)
 
 ## A5 Broken Access Control
 
 * [Airbnb – Web to App Phone Notification IDOR to view Everyone’s Airbnb Messages](http://buer.haus/2017/03/31/airbnb-web-to-app-phone-notification-idor-to-view-everyones-airbnb-messages/)
 * [Exploiting CORS Misconfigurations for Bitcoins and Bounties](http://blog.portswigger.net/2016/10/exploiting-cors-misconfigurations-for.html)
 * [wfuzz - Web application fuzzer](https://github.com/xmendez/wfuzz)
+* [Use JWT The Right Way!](https://stormpath.com/blog/jwt-the-right-way)
 
 ## A6 Security Misconfiguration
 * [Shodan product:MySQL country:sk](https://www.shodan.io/search?query=product%3AMySQL+country%3Ask)
@@ -73,6 +75,7 @@
 * [Universal XSS via Evernote WebClipper](https://blog.xpnsec.com/evernote-webclipper-uxss/)
 * [From Markdown to RCE in Atom](https://statuscode.ch/2017/11/from-markdown-to-rce-in-atom/)
 * [DOM XSS – auth.uber.com](https://stamone-bug-bounty.blogspot.sk/2017/10/dom-xss-auth_14.html)
+* [mXSS Attacks: Attacking well-secured Web-Applications by using innerHTML Mutations](https://cure53.de/fp170.pdf)
 
 ## A8 Insecure Deserialization
 
@@ -98,6 +101,7 @@
 
 ## A10 Insufficient Logging and Monitoring
 
+* [NIST Computer Security Incident Handling Guide SP 800-61 Rev. 2](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final)
 * [Web Application Firewall (WAF) Evasion Techniques](https://medium.com/secjuice/waf-evasion-techniques-718026d693d8)
 
 
