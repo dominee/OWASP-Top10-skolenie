@@ -1,0 +1,8 @@
+# Host Database
+#
+# Linux : /etc/hosts
+# Windows : C:\Windows\System32\Drivers\etc\hosts
+#
+
+10.6.6.13       owasp.local hackazon.owasp.local joomla.owasp.local www.joomla.owasp.local joomla370.owasp.local www.joomla370.owasp.local evil.owasp.local
+
