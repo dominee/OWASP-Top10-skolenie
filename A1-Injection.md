@@ -13,7 +13,7 @@ BodgeIt login
 
 ### Numeric
 
-Examples on [WebGoat](http://10.6.6.10:8080/WebGoat-5.4/attack?Screen=77&menu=1100)
+Examples on [WebGoat](http://10.6.6.13:8080/WebGoat-5.4/attack?Screen=77&menu=1100)
 
 ```
 SUBMIT=Go%21&station=102%2b1
