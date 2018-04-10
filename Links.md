@@ -92,6 +92,7 @@
 * [Remote Code Execution in CouchDB CVE-2017-12635](https://justi.cz/security/2017/11/14/couchdb-rce-npm.html)
 * [Defencely Clarifies Python Object Injection Exploitation](https://defencely.com/blog/defencely-clarifies-python-object-injection-exploitation/)
 * [ysoserial](https://github.com/frohoff/ysoserial) - A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization
+* [CVE-2018-9843 CyberArk Password Vault Web Access Remote Code Execution](https://www.redteam-pentesting.de/en/advisories/rt-sa-2017-014/-cyberark-password-vault-web-access-remote-code-execution)
 
 ## A9 Using Components with Known Vulnerabilities
 
