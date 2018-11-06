@@ -9,6 +9,7 @@
 * [Exploiting hard filtered SQL Injections 2](https://websec.wordpress.com/2010/05/07/exploiting-hard-filtered-sql-injections-2-conditional-errors/)
 * [Exploiting hard filtered SQL Injections 3](https://websec.wordpress.com/2010/05/26/exploiting-hard-filtered-sql-injections-3/)
 * [Exploits of a Mom](https://xkcd.com/327/)
+* [Making a Blind SQL Injection a Little Less Blind](https://medium.com/@tomnomnom/making-a-blind-sql-injection-a-little-less-blind-428dcb614ba8)
 
 ### HQL & Hibernte
 
@@ -56,6 +57,7 @@
 * [Shopware 5.3.3: PHP Object Instantiation to Blind XXE](https://blog.ripstech.com/2017/shopware-php-object-instantiation-to-blind-xxe/)
 * [XML External Entity (XXE) limitations](https://www.acunetix.com/blog/articles/xml-external-entity-xxe-limitations/)
 * [XSLT Server Side Injection Attacks](https://www.contextis.com/blog/xslt-server-side-injection-attacks)
+* [Generic XXE Detection](https://www.christian-schneider.net/GenericXxeDetection.html)
 
 ## A5 Broken Access Control
 
@@ -83,6 +85,8 @@
 * [From Markdown to RCE in Atom](https://statuscode.ch/2017/11/from-markdown-to-rce-in-atom/)
 * [DOM XSS – auth.uber.com](https://stamone-bug-bounty.blogspot.sk/2017/10/dom-xss-auth_14.html)
 * [mXSS Attacks: Attacking well-secured Web-Applications by using innerHTML Mutations](https://cure53.de/fp170.pdf)
+* [XSS protection disappears from Microsoft Edge](https://portswigger.net/daily-swig/xss-protection-disappears-from-microsoft-edge)
+* [Bypassing DOMPurify with mXSS](http://www.thespanner.co.uk/2018/07/29/bypassing-dompurify-with-mxss/)
 
 ## A8 Insecure Deserialization
 
@@ -102,6 +106,11 @@
 * [CVE-2018-9843 CyberArk Password Vault Web Access Remote Code Execution](https://www.redteam-pentesting.de/en/advisories/rt-sa-2017-014/-cyberark-password-vault-web-access-remote-code-execution)
 * [A Salesmans Code Execution: PrestaShop 1.7.2.4](https://blog.ripstech.com/2018/prestashop-remote-code-execution/)
 * [Understanding Java deserialization](https://nytrosecurity.com/2018/05/30/understanding-java-deserialization/)
+* [Deserialization Vulnerabilities: Attacking Deserialization in JS](https://www.acunetix.com/blog/web-security-zone/deserialization-vulnerabilities-attacking-deserialization-in-js/)
+* [Understanding Java deserialization](https://nytrosecurity.com/2018/05/30/understanding-java-deserialization/)
+* [ASP.NET resource files (.RESX) and deserialisation issues](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/)
+* [Friday the 13th JSON Attacks](https://www.blackhat.com/docs/us-17/thursday/us-17-Munoz-Friday-The-13th-JSON-Attacks-wp.pdf)
+* [.NET serialization/deserialization – basic C# attack example](http://malwrforensics.com/en/2018/03/02/net-serialization-deserialization-basic-c-attack-example/)
 
 ## A9 Using Components with Known Vulnerabilities
 
@@ -121,4 +130,4 @@
 * [Musings on the OWASP Top 10 2017 RC1](https://nvisium.com/blog/2017/04/18/musings-on-the-owasp-top-10-2017-rc1/)
 * [Abusing OWASP with 'Insufficient Attack Protection'](http://www.skeletonscribe.net/2017/04/abusing-owasp.html)
 * [Why OWASP Top 10 is no longer relevant](https://sakurity.com/blog/2017/04/24/owasp.html)
-
+* [Top 10 Web Hacking Techniques of 2017](https://portswigger.net/blog/top-10-web-hacking-techniques-of-2017)
