@@ -111,12 +111,14 @@
 * [ASP.NET resource files (.RESX) and deserialisation issues](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/)
 * [Friday the 13th JSON Attacks](https://www.blackhat.com/docs/us-17/thursday/us-17-Munoz-Friday-The-13th-JSON-Attacks-wp.pdf)
 * [.NET serialization/deserialization – basic C# attack example](http://malwrforensics.com/en/2018/03/02/net-serialization-deserialization-basic-c-attack-example/)
+* [RUBY 2.X UNIVERSAL RCE DESERIALIZATION GADGET CHAIN](https://www.elttam.com.au/blog/ruby-deserialization/)
 
 ## A9 Using Components with Known Vulnerabilities
 
 * [WPScan](https://wpscan.org/) is a black box WordPress vulnerability scanner
 * [mustache-security](https://code.google.com/archive/p/mustache-security/)
 * [Introducing security alerts on GitHub](https://github.com/blog/2470-introducing-security-alerts-on-github)
+* [Exploiting developer infrastructure is insanely easy](https://medium.com/@jsoverson/exploiting-developer-infrastructure-is-insanely-easy-9849937e81d4)
 
 ## A10 Insufficient Logging and Monitoring
 
