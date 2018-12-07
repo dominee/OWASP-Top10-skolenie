@@ -32,7 +32,13 @@
 * [Evil Teacher: Code Injection in Moodle](https://blog.ripstech.com/2018/moodle-remote-code-execution/)
 
 ### SMTP injection
+
 * [Pwning PHP mail() function For Fun And RCE ](https://exploitbox.io/paper/Pwning-PHP-Mail-Function-For-Fun-And-RCE.html) - not SMTP Injection per se, but related
+
+### Expression injection
+
+* [RCE in Hubspot with EL injection in HubL](https://www.betterhacker.com/2018/12/rce-in-hubspot-with-el-injection-in-hubl.html)
+
 
 ## A2 Broken Authentication
 
@@ -42,6 +48,7 @@
 * [Bypassing SAML 2.0 SSO with XML Signature Attacks](http://research.aurainfosec.io/bypassing-saml20-SSO/)
 * [Passwords Evolved: Authentication Guidance for the Modern Era](https://www.troyhunt.com/passwords-evolved-authentication-guidance-for-the-modern-era/)
 * [Yahoo Bug Bounty: Exploiting OAuth Misconfiguration To Takeover Flickr Accounts](https://mishresec.wordpress.com/2017/10/12/yahoo-bug-bounty-exploiting-oauth-misconfiguration-to-takeover-flickr-accounts/)
+* [Impersonating users by abusing broken “Sign in with” implementations](https://www.ory.sh/sign-in-with-user-impersonation-oauth2-openid-connect)
 
 ## A3 Sensitive Data Exposure
 
