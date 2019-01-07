@@ -1,12 +1,16 @@
-#A5 - Broken Access Control
+# A5 - Broken Access Control
 
 ## Bodgeit
 
-Hello admin
+### Hello admin
 
 `http://owasp.local:8080/bodgeit/admin.jsp`
 
+### Debug please
 
+`http://owasp.local:8080/bodgeit/basket.jsp?debug=true`
+
+### Not my basket
 
 ```
 GET /bodgeit/basket.jsp HTTP/1.1
