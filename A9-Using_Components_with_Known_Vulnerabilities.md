@@ -1,2 +1,0 @@
-#A9 - Using Components with Known Vulnerabilities
-
