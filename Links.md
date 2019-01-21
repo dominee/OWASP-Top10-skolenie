@@ -119,6 +119,7 @@
 * [Friday the 13th JSON Attacks](https://www.blackhat.com/docs/us-17/thursday/us-17-Munoz-Friday-The-13th-JSON-Attacks-wp.pdf)
 * [.NET serialization/deserialization – basic C# attack example](http://malwrforensics.com/en/2018/03/02/net-serialization-deserialization-basic-c-attack-example/)
 * [RUBY 2.X UNIVERSAL RCE DESERIALIZATION GADGET CHAIN](https://www.elttam.com.au/blog/ruby-deserialization/)
+* [Use of Deserialisation in .NET Framework Methods and Classes](https://www.nccgroup.trust/uk/our-research/use-of-deserialisation-in-.net-framework-methods-and-classes/?research=Whitepapers)
 
 ## A9 Using Components with Known Vulnerabilities
 
