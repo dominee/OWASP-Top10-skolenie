@@ -138,7 +138,6 @@ but we want more!
 
 `http://dvwa.lab/vulnerabilities/fi/?page=../../phpinfo.php`
 
-``
 
 Or you can upload your own backdoor using the [image upload](http://dvwa.lab/vulnerabilities/upload) and then access it 
 
