@@ -31,7 +31,7 @@ but you can [guess](http://bodgeit.lab/bodgeit/admin.jsp)
 
 Wish there was some magic switch to show some sensitive stuff.
 
-No problem. Try something like [this])http://bodgeit.lab/bodgeit/basket.jsp?debug=true)
+No problem. Try something like [this](http://bodgeit.lab/bodgeit/basket.jsp?debug=true)
 
 `http://bodgeit.lab/bodgeit/basket.jsp?debug=true`
 
