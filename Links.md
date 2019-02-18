@@ -68,6 +68,7 @@
 ## A8 Cross-Site Request Forgery (CSRF)
 
 * [Stompy](http://lcamtuf.coredump.cx/) a fairly sophisticated token randomness evaluation tool.
+* [Facebook CSRF protection bypass which leads to Account Takeover.](https://ysamm.com/?p=185)
 
 ## A9 Using Components with Known Vulnerabilities
 
