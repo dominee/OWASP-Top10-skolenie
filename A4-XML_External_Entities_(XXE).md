@@ -11,7 +11,7 @@ Let's try some `application/json`
 
 ```
 PUT /api/user/3 HTTP/1.1
-Host: hackazon.owasp.local
+Host: hackazon.lab
 Authorization: Token 1af538baa9045a84c0e889f672baf83ff24
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0
 Accept: application/json, text/javascript, */*; q=0.01
@@ -27,7 +27,7 @@ What about `application/xml` ?
 
 ```
 PUT /api/user/3 HTTP/1.1
-Host: hackazon.owasp.local
+Host: hackazon.lab
 Authorization: Token 1af538baa9045a84c0e889f672baf83ff24
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0
 Content-Type: application/xml; charset=UTF-8
@@ -44,7 +44,7 @@ Hello simplexml
 
 ```
 PUT /api/user/3 HTTP/1.1
-Host: hackazon.owasp.local
+Host: hackazon.lab
 Authorization: Token 1af538baa9045a84c0e889f672baf83ff24
 Accept: application/json, text/javascript, */*; q=0.01
 Content-Type: application/xml; charset=UTF-8
@@ -58,7 +58,7 @@ Connection: close
 
 ```
 PUT /api/user/3 HTTP/1.1
-Host: hackazon.owasp.local
+Host: hackazon.lab
 Authorization: Token 1af538baa9045a84c0e889f672baf83ff24
 Accept: application/json, text/javascript, */*; q=0.01
 Content-Type: application/xml; charset=UTF-8
@@ -73,7 +73,7 @@ Connection: close
 
 ```
 PUT /api/user/3 HTTP/1.1
-Host: hackazon.owasp.local
+Host: hackazon.lab
 Authorization: Token 1af538baa9045a84c0e889f672baf83ff24
 Accept: application/json, text/javascript, */*; q=0.01
 Content-Type: application/xml; charset=UTF-8
@@ -89,7 +89,7 @@ Connection: close
 
 ```
 PUT /api/user/3 HTTP/1.1
-Host: hackazon.owasp.local
+Host: hackazon.lab
 Authorization: Token 1af538baa9045a84c0e889f672baf83ff24
 Accept: application/json, text/javascript, */*; q=0.01
 Content-Type: application/xml; charset=UTF-8
@@ -103,7 +103,7 @@ Connection: close
 
 ```
 PUT /api/user/3 HTTP/1.1
-Host: hackazon.owasp.local
+Host: hackazon.lab
 Authorization: Token 1af538baa9045a84c0e889f672baf83ff24
 Accept: application/json, text/javascript, */*; q=0.01
 Content-Type: application/xml; charset=UTF-8
@@ -120,7 +120,7 @@ Problemy s /etc/fstab
 
 ```
 PUT /api/user/3 HTTP/1.1
-Host: hackazon.owasp.local
+Host: hackazon.lab
 Authorization: Token 1af538baa9045a84c0e889f672baf83ff24
 Accept: application/json, text/javascript, */*; q=0.01
 Content-Type: application/xml; charset=UTF-8
@@ -136,7 +136,7 @@ Connection: close
 
 ```
 PUT /api/user/3 HTTP/1.1
-Host: hackazon.owasp.local
+Host: hackazon.lab
 Authorization: Token 1af538baa9045a84c0e889f672baf83ff24
 Accept: application/json, text/javascript, */*; q=0.01
 Content-Type: application/xml; charset=UTF-8
