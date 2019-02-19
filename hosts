@@ -4,5 +4,10 @@
 # Windows : C:\Windows\System32\Drivers\etc\hosts
 #
 
-10.6.6.13       owasp.local hackazon.owasp.local joomla.owasp.local www.joomla.owasp.local joomla370.owasp.local www.joomla370.owasp.local evil.owasp.local
+10.6.6.13       owasp.lab hackazon.lab joomla.lab www.joomla.lab joomla370.lab www.joomla370.lab evil.lab bodgeit.lab dvwa.lab xvwa.lab awesome.lab
 
+# This file is obsolete, use the DNS server on the VM.
+# Use /usr/bin/dns-switch to switch to the IP of the interface you want to use.
+# For example:
+# dns-switch eth1
+# Aliasing lab domain to 10.6.6.13 (eth1)
