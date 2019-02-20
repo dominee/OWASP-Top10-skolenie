@@ -1,0 +1,110 @@
+version: '3'
+
+services:
+
+  ##################
+  # Infrastructure #
+  ##################
+
+  dns:
+  ####
+
+    image: andyshinn/dnsmasq
+    container_name: dns
+
+    ports:
+      # External users can reach the DNS server
+      - "${IP_FRONT}:53:53/udp"
+
+    entrypoint:
+      - "dnsmasq"
+      # The whole 'pwn' TLD is resolved to ${IP_FRONT}
+      - "--address=/lab/${IP_FRONT}"
+      # Exception #1: domain 'loopback.lab' is resolved to 127.0.0.1
+      - "--address=/loopback.lab/127.0.0.1"
+      # Log queries to stdout (use only if needed)
+      - "--log-queries"
+      # debug on --no-daemon or --keep-in-foreground  
+      - "-d"   
+
+    cap_add:
+      # Needed for low-level networking
+      - "NET_ADMIN"
+
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    container_name: proxy
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+
+  #############
+  # Databases #
+  #############
+
+  mysql:
+  ######
+
+    image: mysql
+    container_name: mysql
+
+
+  ###########
+  # Targets #
+  ###########
+
+  bodgeit:
+  ########
+
+   image: psiinon/bodgeit
+   container_name: bodgeit
+   depends_on:
+     - nginx-proxy
+   environment:
+      - VIRTUAL_HOST=bodgeit.lab
+
+  dvwa:
+  ########
+
+   image: vulnerables/web-dvwa
+   container_name: DVWA
+   depends_on:
+     - nginx-proxy
+     - mysql
+   environment:
+      - VIRTUAL_HOST=dvwa.lab
+
+  xvwa:
+  ########
+
+   image: tuxotron/xvwa
+   container_name: XVWA
+   depends_on:
+     - nginx-proxy
+   environment:
+      - VIRTUAL_HOST=xvwa.lab
+
+  hackazon:
+  ########
+
+   image: mutzel/all-in-one-hackazon
+   container_name: hackazon
+   depends_on:
+     - nginx-proxy
+   environment:
+      - VIRTUAL_HOST=hackazon.lab
+
+  beef:
+  ########
+
+   image: janes/beef
+   container_name: beef
+   depends_on:
+     - nginx-proxy
+   environment:
+     - VIRTUAL_HOST=beef.lab
+   ports:
+     - "3000:3000"
+
+
