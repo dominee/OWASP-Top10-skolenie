@@ -127,6 +127,8 @@
 * [mustache-security](https://code.google.com/archive/p/mustache-security/)
 * [Introducing security alerts on GitHub](https://github.com/blog/2470-introducing-security-alerts-on-github)
 * [Exploiting developer infrastructure is insanely easy](https://medium.com/@jsoverson/exploiting-developer-infrastructure-is-insanely-easy-9849937e81d4)
+* [CVE Details](https://www.cvedetails.com/)
+* [VulnDB](https://vuldb.com/)
 
 ## A10 Insufficient Logging and Monitoring
 
