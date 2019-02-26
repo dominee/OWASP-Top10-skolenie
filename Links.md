@@ -94,6 +94,8 @@
 * [mXSS Attacks: Attacking well-secured Web-Applications by using innerHTML Mutations](https://cure53.de/fp170.pdf)
 * [XSS protection disappears from Microsoft Edge](https://portswigger.net/daily-swig/xss-protection-disappears-from-microsoft-edge)
 * [Bypassing DOMPurify with mXSS](http://www.thespanner.co.uk/2018/07/29/bypassing-dompurify-with-mxss/)
+* [Video Downloader and Video Downloader Plus Chrome Extension Hijack Exploit - UXSS via CSP Bypass (~15.5 Million Affected)](https://thehackerblog.com/video-download-uxss-exploit-detailed/)
+
 
 ## A8 Insecure Deserialization
 
