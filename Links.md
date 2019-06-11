@@ -11,11 +11,12 @@
 * [Exploits of a Mom](https://xkcd.com/327/)
 * [Making a Blind SQL Injection a Little Less Blind](https://medium.com/@tomnomnom/making-a-blind-sql-injection-a-little-less-blind-428dcb614ba8)
 
-### HQL & Hibernte
+### ORM / HQL & Hibernte
 
 * [HQL for pentesters](http://blog.h3xstream.com/2014/02/hql-for-pentesters.html)
 * [ORM2Pwn: Exploiting injections in Hibernate ORM](https://www.slideshare.net/0ang3el/orm2pwn-exploiting-injections-in-hibernate-orm)
 * [OWASP Hibernate](https://www.owasp.org/index.php/Hibernate)
+* [MAGENTO 2.2.0 <= 2.3.0 UNAUTHENTICATED SQLI](https://www.ambionics.io/blog/magento-sqli)
 
 ### NoSQL
 
@@ -55,6 +56,7 @@
 * [How to Safely Store Your Users' Passwords in 2016](https://paragonie.com/blog/2016/02/how-safely-store-password-in-2016)
 * [High-Tech Bridge - SSL/TLS Server Test](https://www.htbridge.com/ssl/)
 * [Qualys SSL Labs - SSL Server Test](https://www.ssllabs.com/ssltest/)
+* [testssl.sh](https://github.com/drwetter/testssl.sh)
 
 ## A4 XML External Entities (XXE)
 
@@ -72,11 +74,12 @@
 * [Exploiting CORS Misconfigurations for Bitcoins and Bounties](http://blog.portswigger.net/2016/10/exploiting-cors-misconfigurations-for.html)
 * [wfuzz - Web application fuzzer](https://github.com/xmendez/wfuzz)
 * [Use JWT The Right Way!](https://stormpath.com/blog/jwt-the-right-way)
+* [JWT: Signature-vs-MAC attacks](https://snikt.net/blog/2019/05/16/jwt-signature-vs-mac-attacks/)
 
 ## A6 Security Misconfiguration
 * [Shodan product:MySQL country:sk](https://www.shodan.io/search?query=product%3AMySQL+country%3Ask)
 * [The 2018 Guide to Building Secure PHP Software](https://paragonie.com/blog/2017/12/2018-guide-building-secure-php-software)
-
+* [viewgen is a ViewState tool capable of generating both signed and encrypted payloads with leaked validation keys](https://github.com/0xACB/viewgen)
 
 ## A7 Cross-Site Scripting (XSS)
 
@@ -95,6 +98,7 @@
 * [XSS protection disappears from Microsoft Edge](https://portswigger.net/daily-swig/xss-protection-disappears-from-microsoft-edge)
 * [Bypassing DOMPurify with mXSS](http://www.thespanner.co.uk/2018/07/29/bypassing-dompurify-with-mxss/)
 * [Video Downloader and Video Downloader Plus Chrome Extension Hijack Exploit - UXSS via CSP Bypass (~15.5 Million Affected)](https://thehackerblog.com/video-download-uxss-exploit-detailed/)
+* [Analysis of UXSS exploits and mitigations in Chromium](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/f5a8289d4f69e9e34b38a1e7c05ef4818b22cd5b.pdf)
 
 
 ## A8 Insecure Deserialization
@@ -131,6 +135,9 @@
 * [Exploiting developer infrastructure is insanely easy](https://medium.com/@jsoverson/exploiting-developer-infrastructure-is-insanely-easy-9849937e81d4)
 * [CVE Details](https://www.cvedetails.com/)
 * [VulnDB](https://vuldb.com/)
+* [Dependency-Check](https://github.com/jeremylong/DependencyCheck)
+* [OWASP Dependency-Track](https://dependencytrack.org/)
+
 
 ## A10 Insufficient Logging and Monitoring
 
