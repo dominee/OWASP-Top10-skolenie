@@ -2,6 +2,7 @@
 
 ## OWASP Juice Shop
 
+From the left menu choose `Complaint` and try to upload a file.
 
 ```
 POST /file-upload HTTP/1.1
